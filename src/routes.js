@@ -1,10 +1,10 @@
 import React from "react"
 import Home from "./pages/Home/Home"
-import Login from "./pages/Login/Login"
+import Register from "./pages/Register/Register"
 
 const routes = [
     {path: "/", element: React.createElement(Home)},
-    {path: "/login", element: React.createElement(Login)},
+    {path: "/register", element: React.createElement(Register)},
 ]
 
 export default routes

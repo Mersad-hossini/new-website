@@ -1,0 +1,61 @@
+:root {
+  /* color */
+  /* .......... body .......... */
+  --bgBody: rgb(246, 240, 255);
+  --colorTxBody: black;
+  /* .......... navbar .......... */
+  --borderBtnSearch: 2px solid rgb(255, 217, 0);
+  --hoverMenuNav: rgba(81, 81, 255, 0.273);
+  --hoverSearchNav: rgb(221, 196, 255);
+  --bgBtnHoverSearch: rgb(255, 217, 0);
+  --colorLinkLi: rgb(255, 255, 255);
+  --colorMenuNav: black;
+  --bgMenuNav: white;
+  /* .......... slider and captions .......... */
+  --bgSlider: rgb(12, 0, 117);
+  --textCaption: white;
+  --h1Caption: rgb(238, 255, 4);
+  /* .......... signin .......... */
+  --borderBtnRefresh: 1px solid rgb(190, 121, 255);
+  --boxshadowInputsLogin: 1px 5px 3px 2px #000000;
+  --borderBtnSignin: 1px solid rgb(192, 125, 255);
+  --colorTxSignin: rgb(235, 247, 10);
+  --bgHoverInput: rgb(255, 247, 0);
+  --btnSignin: rgb(157, 125, 255);
+  --bgSignin: rgb(46, 0, 95);
+  --bgBtnRefresh: transparent;
+  --colorbtnSignin: black;
+  --colorBtnForm: black;
+  /* .......... captcha .......... */
+  --btnsHoverCaptcha: transparent;
+  --btnBorderHoverCaptcha: 2px solid rgb(233, 210, 3);
+  --borderCaptchaCanva: 1px solid white;
+  --bgBtnsCaptcha: rgb(249, 161, 19);
+  --colorBtnCaptcha: black;
+  --captchaCanva: #eee;
+  --colorBtnsHoverCaptcha: white;
+  /* .......... vojohat .......... */
+  --bgVojohat: #0c0075;
+  --colorVojohat: white;
+  /* .......... radio button .......... */
+  --borderRadioButton: 1px solid #ccc;
+  --bgRadioButton: #f0f0f0;
+  --bgHoverRadioButton: #710bd7;
+  --colorTxtHoverRadioBtn: rgb(255, 255, 255);
+  --borderHoverRadioBtn: 2px solid #710bd7;
+  --bgSelectedRadioBtn: rgb(154, 161, 255);
+  --borderSelectedRdioBtn: 1px solid rgb(154, 161, 255);
+  --colorTxtRdioBtn: rgb(35, 0, 95);
+  --colorTxtSelectedRdioBtn: rgb(35, 0, 95);
+
+  /*  */
+  --colorSubmitButton: rgb(255, 255, 255);
+  --bgSubmitButton: rgb(220, 198, 3);
+  --boxShadowSubmitBtn: 2px 5px 10px 1px rgb(0, 0, 0);
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #a09c9c;
+  color: var(--colorTxBody);
+}

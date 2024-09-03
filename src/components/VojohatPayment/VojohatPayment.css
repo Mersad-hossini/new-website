@@ -1,0 +1,343 @@
+/* ------------------------------------------------------------------------------- */
+#vojohat {
+  width: 98%;
+  /* background-color: var(--bgVojohat); */
+  background-color: #a09c9c;
+
+  color: var(--colorVojohat);
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.vojohat-title {
+  font-size: 28px;
+  color: #fff;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+/* form data signin vojohat user */
+.formVojohat {
+  padding: 15px;
+}
+
+/* style form */
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  padding: 18px;
+}
+
+#registrationForm > input {
+  width: 45%;
+  height: 40px;
+  padding: 20px;
+  margin: 6px;
+  border-radius: 23px 7px 23px 7px;
+  -webkit-border-radius: 23px 7px 23px 7px;
+  -moz-border-radius: 23px 7px 23px 7px;
+  -ms-border-radius: 23px 7px 23px 7px;
+  -o-border-radius: 23px 7px 23px 7px;
+  border: 0;
+  outline: 0;
+  box-shadow: 2px 4px 7px 2px black;
+}
+
+#registrationForm > button {
+  width: 37vh;
+  padding: 10px;
+  border-radius: 20px 10px 30px 40px;
+  -webkit-border-radius: 20px 10px 30px 40px;
+  -moz-border-radius: 20px 10px 30px 40px;
+  -ms-border-radius: 20px 10px 30px 40px;
+  -o-border-radius: 20px 10px 30px 40px;
+  margin: 20px;
+  border: 0;
+  box-shadow: 4px 5px 7px 2px black;
+  background-color: #edd906;
+}
+
+/* style section radio button: selecte button */
+/* style title gender radio button */
+.lableRadio {
+  margin: 10px;
+  position: relative;
+  bottom: 30px;
+  left: 140px;
+  font-size: 20px;
+}
+
+/* style container labels gender radio button */
+.containerRdioBtn {
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+  height: 50px;
+  bottom: 80px;
+  width: 100%;
+  left: 30px;
+}
+
+/* style  button gender*/
+
+.gender-button {
+  background-color: var(--bgRadioButton);
+  border: var(--borderRadioButton);
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px 9px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.receipt-check {
+  margin-left: 2rem;
+}
+
+.receipt-check label {
+  font-size: 22px;
+  margin-left: 1rem;
+}
+
+/* ------------------------------------------------------------------------------- */
+/* checkbox send post resid vojohat user */
+.address-inputs {
+  display: none;
+  margin-top: 10px;
+}
+
+.text-address {
+  width: 46%;
+  margin-top: 1rem;
+  background: rgb(73, 80, 80);
+  color: #fff;
+  border-radius: 40px;
+  padding: 1rem;
+}
+
+.sendPost {
+  width: 99%;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 109px;
+  left: 91px;
+}
+
+/* style checkbox */
+#toggleCheckbox {
+  direction: rtl;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  position: relative;
+  left: 129px;
+  top: 5px;
+}
+
+.residBox {
+  font-size: 20px;
+  position: relative;
+  right: 51px;
+  font-weight: bold;
+}
+
+.residBox > h5 {
+  position: relative;
+  left: 55px;
+  bottom: 14px;
+}
+
+/* style inputs checkbox */
+#addressInputs {
+  width: 99%;
+  padding: 17px;
+  position: relative;
+  right: 80px;
+}
+
+#addressInputs > input {
+  width: 26%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px 20px 10px 20px;
+  -webkit-border-radius: 10px 20px 10px 20px;
+  -moz-border-radius: 10px 20px 10px 20px;
+  -ms-border-radius: 10px 20px 10px 20px;
+  -o-border-radius: 10px 20px 10px 20px;
+  border: 0;
+  outline: 0;
+  box-shadow: 2px 5px 10px 1px black;
+}
+
+/* style button form checkbox for send data user the post */
+#submitButton {
+  box-shadow: var(--boxShadowSubmitBtn);
+  border-radius: 30px 10px 30px 10px;
+  -webkit-border-radius: 30px 10px 30px 10px;
+  -moz-border-radius: 30px 10px 30px 10px;
+  -ms-border-radius: 30px 10px 30px 10px;
+  -o-border-radius: 30px 10px 30px 10px;
+  color: var(--colorSubmitButton);
+  background-color: var(--bgSubmitButton);
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px;
+  margin: 16px;
+  outline: 0;
+  width: 20%;
+  border: 0;
+}
+
+/* style hr line */
+.lineLeft {
+  position: relative;
+  float: left;
+  width: 46%;
+  top: 10px;
+}
+
+/* style line rigth */
+.lineRigth {
+  position: relative;
+  float: right;
+  width: 46%;
+  top: 10px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* select Otions vojohat */
+/* container options vojohar */
+.optionsVojohat {
+  width: 24%;
+  background-color: #edd906;
+  position: relative;
+  left: 513px;
+  bottom: 134px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.addOptions {
+  background-color: #710bd7;
+  padding: 20px;
+}
+
+/* button add new button for add options */
+
+#addNewButton {
+  background-color: rgb(235, 255, 206);
+  width: 70%;
+  height: 30px;
+  border-radius: 20px 12px 20px 12px;
+  -webkit-border-radius: 20px 12px 20px 12px;
+  -moz-border-radius: 20px 12px 20px 12px;
+  -ms-border-radius: 20px 12px 20px 12px;
+  -o-border-radius: 20px 12px 20px 12px;
+  box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.594);
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.9s ease-in-out;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+}
+
+/* add new button hover */
+#addNewButton:hover {
+  background: transparent;
+  color: rgb(149, 243, 255);
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid rgba(162, 255, 182, 0.514);
+}
+
+/* container seslect options */
+#newEntryDiv {
+  background-color: aqua;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  position: relative;
+}
+
+/* style for hide container options */
+.hidden {
+  display: none;
+}
+
+/* option select btn */
+#optionsSelect {
+  border-radius: 3px 10px 3px 10px;
+  -webkit-border-radius: 3px 10px 3px 10px;
+  -moz-border-radius: 3px 10px 3px 10px;
+  -ms-border-radius: 3px 10px 3px 10px;
+  -o-border-radius: 3px 10px 3px 10px;
+  box-shadow: 3px 4px 5px black;
+  height: 35px;
+  outline: 0;
+  width: 62%;
+  border: 0;
+}
+.containerOptionSelect {
+  position: relative;
+  background: #000;
+  top: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .vojohat-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #registrationForm > input, .text-address {
+    width: 70%;
+  }
+  .vojohat-title {
+    font-size: 22px;
+  }
+  .input::placeholder {
+    font-size: 14px;
+  }
+  .gender-button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .vojohat-title {
+    font-size: 20px;
+  }
+  .input::placeholder {
+    font-size: 12px;
+  }
+
+  .gender-button {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .gender-title {
+    font-size: 20px;
+  }
+}

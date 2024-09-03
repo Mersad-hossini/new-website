@@ -1,0 +1,154 @@
+/*style navbar */
+.listNavbar {
+  width: 100%;
+  height: 0;
+  align-items: center;
+  position: relative;
+  bottom: 37px;
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  justify-content: space-around;
+}
+
+/* style list navbar */
+.listNavbar > li {
+  border-radius: 10px;
+  padding: 5px 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-weight: bolder;
+}
+
+.listNavbar > li > a {
+  color: var(--colorLinkLi);
+}
+
+/* style hoverd lists navbar */
+.listNavbar > li:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 253);
+  transition: all 0.9s ease-in-out;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+}
+
+/* style actived lists */
+.listNavbar > li:active {
+  background-color: rgb(28, 0, 80);
+  color: black;
+}
+
+/* style link in list navbar */
+a {
+  text-decoration: none;
+}
+
+/* menu in navbar */
+.menuNav {
+  background-color: var(--bgMenuNav);
+  padding: 0;
+  width: 120px;
+  z-index: 999;
+  text-align: right;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  visibility: hidden;
+  text-wrap: wrap;
+  box-shadow: 1px 1px 16px 0.6px rgba(0, 0, 0, 0.565);
+}
+
+#menuNavbarList {
+  position: relative;
+  top: 7px;
+  right: 50px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* styled list menu */
+.menuNav #listMenu {
+  list-style: none;
+  float: right;
+  padding: 8px;
+  display: block;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+/* style menu color text */
+#listMenu {
+  color: var(--colorMenuNav);
+}
+
+/* hoverd list menu keshoiee */
+.menuNav #listMenu:hover {
+  background-color: var(--hoverMenuNav);
+}
+
+/* create menu keshoiee */
+.listNavbar > li:hover .menuNav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-listNav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -250px;
+  transition: all 0.3s ease-in-out;
+  bottom: 0;
+  background: red;
+}
+
+.close-btn {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+  .listNavbar > li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none !important;
+  }
+  .mobile-listNav {
+    display: block;
+  }
+  .listNavbar {
+    flex-direction: column;
+    bottom: 0;
+  }
+
+  .listNavbar li {
+    padding: 15px 20px;
+  }
+  
+  .listNavbar > li:hover {
+    border: none;
+  }
+}

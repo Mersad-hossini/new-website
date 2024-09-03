@@ -63,6 +63,10 @@ a:not([class]) {
   color: currentColor;
 }
 
+ul li a {
+  text-decoration: none;
+}
+
 /* Make images easier to work with */
 img,
 picture {
