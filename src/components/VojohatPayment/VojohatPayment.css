@@ -50,7 +50,7 @@
   box-shadow: 2px 4px 7px 2px black;
 }
 
-#registrationForm > button {
+/* #registrationForm > button {
   width: 37vh;
   padding: 10px;
   border-radius: 20px 10px 30px 40px;
@@ -62,7 +62,7 @@
   border: 0;
   box-shadow: 4px 5px 7px 2px black;
   background-color: #edd906;
-}
+} */
 
 /* style section radio button: selecte button */
 /* style title gender radio button */
