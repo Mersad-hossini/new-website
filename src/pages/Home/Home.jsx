@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
 import Register from "../Register/Register";
+import Footer from "../../components/Footer/Footer";
 import VojohatPayment from "../../components/VojohatPayment/VojohatPayment";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -126,7 +127,7 @@ export default function Home() {
             </div>
           ))}
           <button
-          className="btn btn-primary"
+            className="btn btn-primary"
             onClick={handlerAdd}
             disabled={value.length >= maxItems} // Disable button when limit is reached
           >
@@ -134,6 +135,8 @@ export default function Home() {
           </button>
         </form>
       </div>
+
+      <Footer />
     </div>
   );
 }
