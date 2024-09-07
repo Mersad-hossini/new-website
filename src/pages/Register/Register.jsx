@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "../../hooks/useForm";
 import Input from "../../components/Form/Input";
 import Button from "../../components/Form/Button";
+import RegisterImage from "./bgLogin.jpg"
 import "./Register.css";
 import {
   requiredValidator,
@@ -72,7 +73,7 @@ export default function Register() {
       <div className="form-wrapper mt-4 mb-4">
         <div className="container main">
           <div className="row mt-4 mb-4">
-            <div className="col-md-6 side-image">
+            <div className="col-md-6 side-image" style={{backgroundImage: `url(${RegisterImage})`}}>
               <div className="text"></div>
             </div>
 
