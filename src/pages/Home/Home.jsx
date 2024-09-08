@@ -76,7 +76,7 @@ export default function Home() {
         className="paymentVojohat container d-flex justify-content-center align-items-center mt-5"
         onSubmit={onSubmitHandler}
       >
-        <form action="" dir="rtl">
+        <form className="form-selectBox" dir="rtl">
           <div id="registrationForm" className="selectbox-wrapper mb-4">
             <select>
               <option value="-1">-- انتخاب کنید --</option>
